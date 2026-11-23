@@ -1,0 +1,24 @@
+# dependencies and builds
+node_modules/
+web/dist/
+
+# PocketBase binary (scripts/fetch-pocketbase.sh) and runtime data: database, uploads, built app
+server/pocketbase
+server/pb_data/
+server/pb_public/
+server/logs/
+server/backups/
+*.db
+*.db-shm
+*.db-wal
+
+# secrets
+.env
+.env.*
+!.env.example
+
+# editors and OS
+.DS_Store
+.vscode/
+.idea/
+*.log

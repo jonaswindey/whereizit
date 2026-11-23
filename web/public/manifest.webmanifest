@@ -1,0 +1,66 @@
+{
+  "name": "whereizit",
+  "short_name": "whereizit",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f3ee",
+  "theme_color": "#f6f3ee",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Zoeken / Search",
+      "short_name": "Zoeken",
+      "url": "/search",
+      "icons": [
+        {
+          "src": "/icon-512.png",
+          "sizes": "512x512"
+        }
+      ]
+    },
+    {
+      "name": "Boodschappen / Shopping list",
+      "short_name": "Boodschappen",
+      "url": "/shopping",
+      "icons": [
+        {
+          "src": "/icon-512.png",
+          "sizes": "512x512"
+        }
+      ]
+    },
+    {
+      "name": "Voorraad nakijken / Check supplies",
+      "short_name": "Voorraad",
+      "url": "/stock/check",
+      "icons": [
+        {
+          "src": "/icon-512.png",
+          "sizes": "512x512"
+        }
+      ]
+    },
+    {
+      "name": "Toevoegen zonder plek / Add without a place",
+      "short_name": "Toevoegen",
+      "url": "/add/unsorted",
+      "icons": [
+        {
+          "src": "/icon-512.png",
+          "sizes": "512x512"
+        }
+      ]
+    }
+  ]
+}
